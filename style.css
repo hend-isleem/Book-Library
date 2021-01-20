@@ -1,0 +1,69 @@
+/* this is the css style sheet */
+body {
+  background-image: url("ooo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+#flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#input {
+  background-color: rgba(192, 192, 220, 0.3);
+  width: 25%;
+  margin-left: 20%;
+  height: 100%;
+  text-shadow: 2px 2px 5px white;
+}
+#checkboxe {
+  font-size: 1.5em;
+}
+input[type="checkbox"] {
+  margin-right: 2.5%;
+  background: white;
+}
+
+#gen {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px #ece5ec;
+}
+
+.center {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  background-color: rgba(192, 192, 220, 0.3);
+}
+#head {
+  font-size: 3em;
+}
+
+#search {
+  font-weight: bold;
+  margin-left: 10%;
+  background-color: rgba(192, 192, 220, 0.3);
+  text-shadow: 2px 2px 5px white;
+  font-size: 1.1em;
+}
+#space {
+  width: 10%;
+}
+#output {
+  background-color: rgba(192, 192, 220, 0.3);
+  width: 40%;
+  margin-right: 20%;
+
+  text-shadow: 2px 2px 5px white;
+}
+#res {
+  text-shadow: 2px 2px 5px #ece5ec;
+  text-align: center;
+  font-size: 2em;
+}
+#resultArray {
+  /* list-style-type: none; */
+  font-size: 1.5em;
+}
